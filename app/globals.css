@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #f3f4f6; /* Abu-abu terang ala dashboard */
+  color: #1f2937; /* Teks abu-abu gelap */
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
